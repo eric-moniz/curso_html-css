@@ -1,8 +1,8 @@
 @charset 'UTF-8';
 
 @font-face {
-    font-family: 'idroid';
-    src: url('/fontes/idroid.otf');
+    font-family: 'Android';
+    src: url('/desafio-10/fontes/idroid.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,9 +17,9 @@
     --cor4: #1a5c37;
     --cor5: #063d1e;
 
-    --fonte-padrao: Arial, Verdana,Helvetica, sans-serif;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'idroid';
+    --fonte-android: 'Android', cursive;
 }
 
 /*! seletor '*' seleciona todos elementos html */
@@ -54,13 +54,13 @@ main {
     background-color: white;
 }
 
-main > h1 {
+main > article > h1 {
     color: var(--cor5);
-    font-family: var(--fonte-android);
-    font-family: 'idroid'; 
+    font-family: var(--fonte-android); 
 }
 
-main > h2 {
+main > article > h2 {
+    color: var(--cor5);
     font-family: var(--fonte-android);
 }
 
