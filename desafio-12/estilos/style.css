@@ -1,1 +1,84 @@
 /* estilos */
+@charset 'utf8';
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/* body {
+    height: 100vh;
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+header {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    background-color: black;
+    font-family: 'Passion One', cursive;
+    font-size: 3em;
+    font-weight: 400;
+    color: white;
+    
+    text-align: center;
+}
+
+header  p {
+    text-align: center;
+    
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+section {
+    font-family: 'Sriracha', cursive;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+section#estrofe-2 {
+    height: 50vh;
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#estrofe-2 > p {
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+section#estrofe-5 {
+    /* height: 50vh; */
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+}
