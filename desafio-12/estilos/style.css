@@ -1,84 +1,115 @@
 /* estilos */
-@charset 'utf8';
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    }
 
 * {
     padding: 0px;
     margin: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
-/* body {
-    height: 100vh;
-    background-image: url('../imagens/background001.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-} */
+html, body {
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
 
 header {
     background-color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    
 }
 
 header h1 {
-    background-color: black;
-    font-family: 'Passion One', cursive;
-    font-size: 3em;
-    font-weight: 400;
-    color: white;
-    
-    text-align: center;
+    padding-top: 50px;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    font-weight: bolder;
 }
 
-header  p {
-    text-align: center;
-    
-    color: white;
+header p {
+    padding-bottom: 50px;
+    font-size: 1.2em;
 }
 
 header a {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.418);
 }
 
 section {
-    font-family: 'Sriracha', cursive;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    font-weight: normal;
+
+    line-height: 2em;
+
     text-align: left;
-    font-size: 1.2em;
+
+    padding: 10vh 0px;
+    padding-left: 30px;
 }
 
-section#estrofe-2 {
-    height: 50vh;
+section > p {
+    padding-bottom: 2em;
+}
+
+section#img01 {
     background-image: url('../imagens/background001.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-section#estrofe-2 > p {
-    width: 300px;
-    padding-left: 20px;
-    padding-bottom: 25px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: white;
-}
-
-section#estrofe-5 {
-    /* height: 50vh; */
+section#img02 {
     background-image: url('../imagens/background002.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.caixa {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    padding: 0px 5px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.45);
 }
 
 footer {
     text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2.2vw;
+    padding: 10px 0px;
+}
+
+a#rodape {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+a#rodape:hover {
+    background-color: rgba(255, 255, 255, 0.289);
+    transition-duration: 0.4s;
+    text-decoration: underline;
 }
