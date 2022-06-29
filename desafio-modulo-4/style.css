@@ -1,0 +1,29 @@
+/* Arquivo de estilos */
+#container {
+    height: 98vh;
+    background-image: url('imagens/fundo-madeira.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+    
+}
+/*
+#conteudo {
+    background-image: url('imagens/frame-iphone.png');
+    background-size: 100% 100%;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+#celular{
+    text-align: center;
+    
+}
