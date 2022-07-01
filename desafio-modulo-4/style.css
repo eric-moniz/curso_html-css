@@ -9,13 +9,11 @@ body {
     position: relative;
 }
   
-/* .div_tela {
-    width: 260px;
+.tela {
     overflow: hidden;
 }
- */
+
 .celular {
-    /*width: 330px;*/
     position: absolute;
     height: 100%;
     top: 25%;
@@ -23,8 +21,9 @@ body {
     text-align: center;
 }
   
-.child {
-    width: 100%;
+.moldura {
+    width: 105%;
+    /* width: 245px; */
     position: absolute;
     height: 100%;
     top: 50%;
