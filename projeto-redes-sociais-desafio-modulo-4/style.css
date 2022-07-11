@@ -9,19 +9,18 @@
 
 html, body {
     height: 100vh;
-    width: 100vh;
-    /* background-image: url('imagens/fundo-madeira.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+body{
+    background: url('imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
-    position: relative; */
 }
 
 main {
     position: relative;
     height: 100vh;
-    background-color: green;
 }
 
 section#telefone {
@@ -30,45 +29,15 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 500px;
-    width: 500px;
-    background-color: blue;
+    height: 627px;
+    width: 311px;
+    background: url('imagens/frame-iphone.png') no-repeat;
 }
 
- /* Daqui p/ baixo feito por mim */
-
-.tela {
-    overflow: hidden;
-}
-
-.celular {
-    position: absolute;
-    height: 100%;
-    top: 25%;
-    right: 25%;
-    text-align: center;
-}
-  
-.moldura {
-    /* width: 105%; */
-    width: 245px;
-    position: absolute;
-    height: 100%;
-    top: 50%;
-    overflow: auto;
-    transform: translate(50%, -50%);
-}
-
-.botao{
-    display: block;
-    margin-top: 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-}
-
-.botao:hover {
-    transform: scale(1.2);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 471px;
 }
